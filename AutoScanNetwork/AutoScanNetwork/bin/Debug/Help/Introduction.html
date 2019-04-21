@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+  <h1>AutoScanNetwork</h1>
+<p style="text-align: justify">
+The project started for monitoring the communication/computer network of MSETCL (related with S/S data visibility with LD). To monitor the network manually generally following procedure needed. 
+</p>  
+<ul>  
+  <li> Listout the substations router and gateway IP addresses for pinging.</li>
+  <li>To ping the each and every s/s router and/or gateway by some central s/s (generally DC)</li>
+  <li>This manual pinging has to be done at some predefined time of the day.</li>
+  <li>Note down the result in a well formatted Excel file manually </li>
+  <li>And at last of the month send them to higher office.</li>
+</ul>
+<p style="text-align: justify">
+Generally it observes that the manual method prone to errors. Thus this application (“AutoScanNetwork”) is developed which will do above work by click of a button. Below is screenshot showing HMI of the application.
+</p>
+
+  <img alt="noimgfnd" src="Hmi.jpg" />
+
+<h2 style="text-align: justify">
+As shown in above screenshot; the application “AutoScanNetwork” has the following ribbon tabs (With the short description).
+</h2>
+
+
+<p style="text-align: justify">
+
+Network: This tab has buttons for creation of a file (*.mcnx) having details of communication/computer network of MSETCL (related with S/S data visibility with LD). 
+</p>
+
+<p style="text-align: justify">
+
+Scan Network: This tab has buttons for carrying out ping trials and saving results in log file
+</p>
+
+<p style="text-align: justify">
+
+Analyse Log: This tab having buttons for consolidating the ping result log file generated as above
+</p>
+
+<p style="text-align: justify">
+
+Tools: Tab has the buttons for checking connectivity, to get MAC address of NIC and exporting scheduled scan log data to Excel.
+</p>
+
+<p style="text-align: justify">
+
+Help: Help on using the program and information about the program.
+</p>
+
+</body>
+</html>
