@@ -19,7 +19,7 @@ Public Class Form1
 
     'Icons for button needed to be decleared here because at end we have to destroy it
     Dim btnOpenIcon As Icon = GetSystemIcon(45)
-    Dim btnNewIcon As Icon = GetSystemIcon(43)
+    Dim btnNewIcon As Icon = GetSystemIcon(100)
     Dim btnSaveIcon As Icon = GetSystemIcon(258)
     Dim btnCloseIcon As Icon = GetSystemIcon(27)
     Dim btnSchScanIcon As Icon = GetSystemIcon(167)
